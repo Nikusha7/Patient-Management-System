@@ -1,0 +1,14 @@
+### Post request to create patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Johnson Doe kafka topic test",
+  "email": "test_kafka1_analytics-service_Johaanson@gmail.com",
+  "address": "123 main street",
+  "dateOfBirth": "1992-02-01",
+  "registeredDate": "2026-03-12"
+}
+
+
+###
